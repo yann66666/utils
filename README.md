@@ -5,6 +5,7 @@
 ## sync_util
 ### Once 实现具有 error 返回值的sync.Once
 ```golang
+var once sync_utils.Once
 if err := once.Do(func() error {
       //do something...
       return nil
