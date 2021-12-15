@@ -122,3 +122,4 @@ func (p *GoPool) worker(task func()) {
 		}
 	}
 }
+
